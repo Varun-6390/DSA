@@ -11,4 +11,5 @@ class Even_Digit{
         }
         System.out.println(count);
     }
+
 }
