@@ -16,8 +16,7 @@ public class FindFirstandLast {
         ans[0] = start;
         ans[1] = end;
 
-        System.out.println(Arrays.toString(ans)); 
-        
+        System.out.println(Arrays.toString(ans));      
     }
 
     static int searchFirst(int[] nums, int target, boolean isFirst)
@@ -55,3 +54,4 @@ public class FindFirstandLast {
         return ans;
     }
 }
+
