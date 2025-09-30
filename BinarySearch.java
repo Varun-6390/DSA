@@ -5,13 +5,11 @@ public class BinarySearch {
        int ans = binarySearch(arr, target);
        System.out.println("Element found at index: " + ans); 
     }
-
     static int binarySearch(int[] arr, int target)
     {
         int start = 0;
         int end  = arr.length - 1;
         
-
         while(start <= end)
         {
             // int mid = (start + end) / 2;
@@ -33,3 +31,4 @@ public class BinarySearch {
         return -1;
     }
 }
+
