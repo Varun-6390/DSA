@@ -1,4 +1,6 @@
-// Given an array nums of integers, return how many of them contain an even number of digits.
+// https://leetcode.com/problems/find-numbers-with-even-number-of-digits
+
+//1295. Given an array nums of integers, return how many of them contain an even number of digits.
 
 class Even_Digit{
     public static void main(String[] args) {
@@ -13,3 +15,4 @@ class Even_Digit{
     }
 
 }
+
