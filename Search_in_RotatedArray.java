@@ -8,7 +8,6 @@ public class Search_in_RotatedArray {
         int ans = Search(nums, target, 0, nums.length - 1);
         System.out.println(ans);
     }
-
     static int Search(int[] nums, int target, int start, int end) {
         int pivot = Findpivot(nums);
 
@@ -23,7 +22,6 @@ public class Search_in_RotatedArray {
         }
         return binarySearch(nums, target, pivot + 1, nums.length - 1);
     }
-
     static int binarySearch(int[] arr, int target, int start, int end) {
 
         while (start <= end) {
@@ -50,7 +48,7 @@ public class Search_in_RotatedArray {
             if (mid < end && arr[mid] > arr[mid + 1]) {
                 return mid;
             }
-            if (mid > end && arr[mid] < arr[mid - 1]) {
+            if (mid > start && arr[mid] < arr[mid - 1]) {
                 return mid - 1;
             }
             if (arr[mid] <= arr[start]) {
@@ -62,5 +60,6 @@ public class Search_in_RotatedArray {
         return -1;
     }
 }
+
 
 
