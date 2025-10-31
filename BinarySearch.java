@@ -1,3 +1,5 @@
+// Binsry Search
+
 public class BinarySearch {
     public static void main(String[] args) {
        int[] arr = {1,3,4,6,9,21,54,87,90};
@@ -31,4 +33,5 @@ public class BinarySearch {
         return -1;
     }
 }
+
 
