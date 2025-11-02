@@ -1,3 +1,4 @@
+// https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/
 // finding index of element in a sorted array of infinite length.
 
 public class FindinInfiniteArray {
@@ -7,7 +8,6 @@ public class FindinInfiniteArray {
         int Ans = ans(arr, target);
         System.out.println(Ans);
     }
-
     static int ans(int[] arr, int target)
     {
         int start = 0;
@@ -23,7 +23,6 @@ public class FindinInfiniteArray {
     }
      static int binarySearch(int[] arr, int target,int start,int end)
     {
-    
         while(start <= end)
         {
             // int mid = (start + end) / 2;
@@ -45,3 +44,4 @@ public class FindinInfiniteArray {
         return -1;
     }
 }
+
