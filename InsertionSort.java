@@ -1,3 +1,4 @@
+//Insertion sort
 import java.util.Arrays;
 
 public class InsertionSort {
@@ -25,3 +26,4 @@ public class InsertionSort {
         arr[b] = temp;
     }
 }
+
