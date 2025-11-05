@@ -30,4 +30,3 @@ class FindAllSuplicate {
         arr[b] = temp;
     }
 }
-
