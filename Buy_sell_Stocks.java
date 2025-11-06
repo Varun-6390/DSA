@@ -22,6 +22,3 @@ public class Buy_sell_Stocks {
         return profit;
     }
 }
-
-
-
