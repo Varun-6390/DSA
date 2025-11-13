@@ -1,7 +1,7 @@
+//Selection Sort
 import java.util.Arrays;
 
 public class selectionSort {
-
     public static void main(String[] args) {
         int nums[] = { 2, 4, 6, 3, 8, 5 };
         selection(nums);
@@ -15,7 +15,6 @@ public class selectionSort {
             swap(arr, maxIndex, last);
         }
     }
-
     static int findMaxIndex(int[] arr, int start, int end) {
         int max = start;
         for (int i = start; i <= end; i++) {
@@ -32,3 +31,4 @@ public class selectionSort {
         arr[b] = temp;
     }
 }
+
