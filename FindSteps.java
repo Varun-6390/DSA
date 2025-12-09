@@ -2,11 +2,9 @@
 // 1342. Number of Steps to Reduce a Number to Zero
 
 public class FindSteps {
-
     static int numberOfSteps(int num) {
         return helper(num, 0);
     }
-
     static int helper(int num, int steps) {
         if (num == 0) {
             return steps;
