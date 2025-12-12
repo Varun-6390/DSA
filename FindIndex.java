@@ -16,6 +16,6 @@ public class FindIndex {
             list.add(index);
         }
         return findAllIndex(arr, target, index + 1, list);
-
     }
 }
+
