@@ -1,5 +1,4 @@
 // Quick sort
-
 import java.util.Arrays;
 
 public class QuickSort {
@@ -8,7 +7,7 @@ public class QuickSort {
         sort(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
     }
-
+    
     static void sort(int[] arr, int low, int high) {
         int s = low;
         int e = high;
@@ -18,7 +17,6 @@ public class QuickSort {
         if (low >= high) {
             return;
         }
-
         while (s <= e) {
             while (arr[s] < pivot) {
                 s++;
@@ -26,6 +24,7 @@ public class QuickSort {
             while (arr[e] > pivot) {
                 e--;
             }
+            
             if (s <= e) {
                 int temp = arr[s];
                 arr[s] = arr[e];
