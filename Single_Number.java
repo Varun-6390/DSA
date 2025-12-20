@@ -11,5 +11,3 @@ public class Single_Number {
         return index;
     }
 }
-
-
