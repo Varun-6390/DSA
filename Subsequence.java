@@ -8,10 +8,8 @@ public class Subsequence {
         System.out.println(ans);
     }
 
-    static ArrayList<String> permutation(String p, String up)
-    {
-        if(up.isEmpty())
-        {
+    static ArrayList<String> permutation(String p, String up) {
+        if (up.isEmpty()) {
             ArrayList<String> list = new ArrayList<>();
             list.add(p);
             return list;
@@ -21,10 +19,9 @@ public class Subsequence {
 
         ArrayList<String> ans = new ArrayList<>();
 
-        for(int i = 0; i <= p.length(); i++)
-        {
-            String f = p.substring(0,i);
-            String s = p.substring(i,p.length());
+        for (int i = 0; i <= p.length(); i++) {
+            String f = p.substring(0, i);
+            String s = p.substring(i, p.length());
             ans.addAll(permutation(f + ch + s, up.substring(1)));
         }
         return ans;
