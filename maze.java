@@ -2,7 +2,7 @@
 
 public class maze {
     public static void main(String[] args) {
-        path("", 4, 4);
+        path("", 3, 3);
     }
 
     static void path(String p, int r, int c)
@@ -22,3 +22,4 @@ public class maze {
         }
     }
 }
+
