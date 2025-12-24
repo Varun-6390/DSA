@@ -1,4 +1,5 @@
 // Given a maze of matrix , you have to find all paths to reach from first cell to last. But you only move right and downwards but there will be obstacles in the path
+//false value in matrix is considered as obstacle.
 
 import java.util.ArrayList;
 
@@ -39,3 +40,4 @@ public class mazeRes {
         return list;
     }
 }
+
