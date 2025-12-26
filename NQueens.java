@@ -1,3 +1,5 @@
+//N-Queens problem
+
 public class NQueens {
     public static void main(String[] args) {
         int n = 4;
@@ -66,4 +68,5 @@ public class NQueens {
             System.out.println();
         }
     }
+
 }
