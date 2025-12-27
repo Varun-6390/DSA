@@ -1,3 +1,5 @@
+// N-Knight problem
+
 public class NKnight {
     public static void main(String[] args) {
         int n = 4;
@@ -79,3 +81,4 @@ public class NKnight {
         }
     }
 }
+
