@@ -1,5 +1,4 @@
 // Sudoku Solver
-
 public class SudokuSolver {
     public static void main(String[] args) {
         int[][] board = new int[][]{
@@ -106,4 +105,5 @@ public class SudokuSolver {
         }
         return true;
     }
+
 }
