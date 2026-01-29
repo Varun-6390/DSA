@@ -1,5 +1,3 @@
-
-
 //Given a maze of matrix , you have to find all paths to reach from first cell to last. But you only move right and downwards
 
 public class maze {
@@ -24,5 +22,6 @@ public class maze {
         }
     }
 }
+
 
 
