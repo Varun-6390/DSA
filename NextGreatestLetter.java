@@ -19,5 +19,3 @@ public class NextGreatestLetter {
         return letters[start % letters.length];
     }
 }
-
-
