@@ -4,7 +4,6 @@
 // Your task is to solve it in O(log(n)) time complexity.
 
 public class PeakIndex {
-
     public static int peakIndexInMountainArray(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
@@ -21,4 +20,3 @@ public class PeakIndex {
         return start;
     }
 }
-
