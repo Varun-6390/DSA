@@ -40,4 +40,3 @@ public class mazeRes {
         return list;
     }
 }
-
