@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/longest-common-prefix
 public class LongestPrefix {
     public static void main(String[] args) {
         String[]  strs = {"flower","flow","flight"};
@@ -23,3 +24,4 @@ public class LongestPrefix {
         return pref;        
     }
 }
+
