@@ -1,5 +1,5 @@
+// https://leetcode.com/problems/valid-parentheses/
 import java.util.Stack;
-
 public class ValidParenthesis {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
@@ -17,3 +17,4 @@ public class ValidParenthesis {
         return stack.isEmpty();
     }
 }
+
