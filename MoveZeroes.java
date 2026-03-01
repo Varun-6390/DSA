@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/move-zeroes?envType=problem-list-v2&envId=array
+// https://leetcode.com/problems/move-zeroes/
 public class MoveZeroes {
     public void moveZeroes(int[] nums) {
         int left = 0;
@@ -13,3 +13,4 @@ public class MoveZeroes {
         }        
     }
 }
+
