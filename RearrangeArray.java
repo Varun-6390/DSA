@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/rearrange-array-elements-by-sign
-import java.util.Arrays;
+import java.util.Arrays; 
 
 public class RearrangeArray {
     public static void main(String[] args) {
