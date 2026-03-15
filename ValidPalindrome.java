@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/valid-palindrome
-public class ValidPalindrome {
+public class ValidPalindrome { 
     public static void main(String[] args) {
         String st = "A man, a plan, a canal: Panama";
         System.out.println(isPalindrome(st));
