@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/contains-duplicate/
 import java.util.Arrays;
-class ContainsDuplicate {
+class ContainsDuplicate { 
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 4, 1 };
         System.out.println(Duplicate(arr));
