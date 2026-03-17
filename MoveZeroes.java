@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/move-zeroes/
-public class MoveZeroes {
+public class MoveZeroes { 
     public void moveZeroes(int[] nums) {
         int left = 0;
 
