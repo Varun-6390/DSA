@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/remove-outermost-parentheses
-public class RemoveParenthesis { 
+public class RemoveParenthesis {
     public String removeOuterParentheses(String s) {
        StringBuilder st = new StringBuilder();
         int level = 0;
