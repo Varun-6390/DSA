@@ -2,7 +2,7 @@
 import java.util.HashMap;
 
 public class ContainsDuplicate2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {  
         int[] nums = {1,2,3,1};
         int k = 3;
         System.out.println(containsNearbyDuplicate(nums, k));
