@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/group-anagrams
-import java.util.*; 
+import java.util.*;
 public class GroupAnagram {
     public static void main(String[] args) {
         String[] str = {"eat","tea","tan","ate","nat","bat"};
