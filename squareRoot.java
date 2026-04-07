@@ -4,7 +4,6 @@ public class squareRoot {
         int p = 3;
         System.out.println(sqrt(n,p));
     }
-
     static double sqrt(int n, int p)
     {
         int s = 0;
