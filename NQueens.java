@@ -7,7 +7,7 @@ public class NQueens {
         System.out.println(queens(board, 0));
     }
 
-    static int queens(boolean[][] board, int row) {
+    static int queens(boolean[][] board, int row) { 
         if (row == board.length) {
             display(board);
             System.out.println();
