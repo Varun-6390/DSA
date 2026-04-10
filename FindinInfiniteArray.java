@@ -44,4 +44,3 @@ public class FindinInfiniteArray {
         return -1;
     }
 }
-
