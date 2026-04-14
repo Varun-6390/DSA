@@ -4,7 +4,6 @@ public class trianglePattern {
     public static void main(String[] args) {
         triangle(6, 0);
     }
-
     static void triangle(int r, int c) {
         if (r == 0) {
             return;
