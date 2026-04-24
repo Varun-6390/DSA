@@ -1,7 +1,6 @@
 // https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 
 public class removeDuplicates {
-
     public class ListNode {
         int val;
         ListNode next;
@@ -18,7 +17,6 @@ public class removeDuplicates {
             this.next = next;
         }
     }
-
     public ListNode deleteDuplicates(ListNode node) {
         if (node == null) {
             return node;
@@ -32,6 +30,5 @@ public class removeDuplicates {
             }
         }
         return head;
-    }
-    
+    }   
 }
