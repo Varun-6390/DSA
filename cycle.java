@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/linked-list-cycle/
-
 public class cycle {
     public boolean hasCycle(ListNode head) {
         ListNode fast = head;
