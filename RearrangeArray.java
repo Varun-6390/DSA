@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/rearrange-array-elements-by-sign
 import java.util.Arrays;
 
-public class RearrangeArray { 
+public class RearrangeArray {
     public static void main(String[] args) {
         int[] arr = {3,1,-2,-5,2,-4};
         int[] ans = rearrangeArray(arr);
