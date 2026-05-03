@@ -1,5 +1,5 @@
 // Skip a specific character from String
-
+ 
 public class SkipChar {
     public static void main(String[] args) {
         skip("", "nuhajhjxall");  //skips 'a'
