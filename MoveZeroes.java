@@ -9,7 +9,7 @@ public class MoveZeroes {
                 nums[right] = nums[left];
                 nums[left] = temp;
                 left++;
-            }
+            } 
         }        
     }
 }
