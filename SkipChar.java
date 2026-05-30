@@ -19,7 +19,6 @@ public class SkipChar {
             } else {
                 skip(p + ch, up.substring(1));
             }
-
         }
     }
     static String skip2(String up) {
